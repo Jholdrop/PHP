@@ -19,13 +19,13 @@
     //uso de SWITCH CASE:
     switch ($AnosEmpresa) {
         case 1:
-            echo "<p>Empresa cobre</p>";
+            echo "<p>Empresa  de nivel cobre</p>( $AnosEmpresa )";
             break;
         case 5:
-            echo "<p>Empresa Esmeralda</p>";
+            echo "<p>Empresa de nivel Esmeralda</p> ( $AnosEmpresa )";
             break;
         default:
-            echo "<p>Empresa nova</p>";
+            echo "$<p>Empresa nova</p>";
     }
     ?>
 </body>
