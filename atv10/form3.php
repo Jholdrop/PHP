@@ -64,11 +64,11 @@
     <h2>Cadastro</h2>
 
     <form method="POST">
+        <label>Nome:</label>
+        <input type="text" name="nome" id="nome">
+        
         <label>Email:</label>
         <input type="text" name="email" id="email">
-
-        <label>Senha:</label>
-        <input type="password" name="senha" id="senha">
 
         <label>Cargo:</label>
         <input type="text" name="cargo" id="cargo">
@@ -80,20 +80,20 @@
     if(isset($_POST["email"])){
 
         $email = $_POST["email"];
-        $senha = $_POST["senha"];
+        $nome = $_POST["nome"];
         $cargo = $_POST["cargo"];
 
         echo "
         <table>
             <tr>
-                <th>Email do funcionário</th>
-                <th>Senha</th>
+                <th>Nome do funcionário</th>
+                <th>Email</th>
                 <th>Cargo</th>
             </tr>
 
             <tr>
+                <td>$nome</td>
                 <td>$email</td>
-                <td>$senha</td>
                 <td>$cargo</td>
             </tr>
         </table>
