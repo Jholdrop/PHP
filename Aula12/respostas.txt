@@ -1,0 +1,15 @@
+1-Utilizar comandos SQL básicos
+
+(C) – Reconheceu comandos CRUD
+(D) – Executou CREATE, INSERT e SELECT corretamente
+Sim, reconheci os comandos CRUD e executei CREATE, INSERT e SELECT corretamente nas atividades realizadas.
+
+2-Capacidades Básicas
+(C) – Entendeu a estrutura de tabelas
+(D) – Criou tabelas coerentes com o problema
+Sim, entendi a estrutura das tabelas e consegui organizar os dados de forma adequada ao problema apresentado.
+
+3-Capacidades Socioemocionais
+
+(D) – Utilizou UPDATE e DELETE com critério
+Sim, utilizei os comandos UPDATE e DELETE com critério, evitando alterações incorretas nos dados do banco.
